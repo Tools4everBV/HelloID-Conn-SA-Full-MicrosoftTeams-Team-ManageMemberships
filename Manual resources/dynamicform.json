@@ -1,0 +1,84 @@
+[
+  {
+    "key": "dropDownTeam",
+    "templateOptions": {
+      "label": "Team",
+      "required": true,
+      "useObjects": false,
+      "useDataSource": true,
+      "useFilter": true,
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ],
+      "dataSourceConfig": {
+        "dataSourceGuid": "$dataSourceGuid_0",
+        "input": {
+          "propertyInputs": []
+        }
+      },
+      "valueField": "id",
+      "textField": "displayValue"
+    },
+    "type": "dropdown",
+    "summaryVisibility": "Show",
+    "textOrLabel": "text",
+    "requiresTemplateOptions": true,
+    "requiresKey": true,
+    "requiresDataSource": false
+  },
+  {
+    "key": "dualListMembers",
+    "templateOptions": {
+      "label": "Manage members",
+      "required": false,
+      "filterable": true,
+      "useDataSource": true,
+      "dualList": {
+        "options": [
+          {
+            "guid": "75ea2890-88f8-4851-b202-626123054e14",
+            "Name": "Apple"
+          },
+          {
+            "guid": "0607270d-83e2-4574-9894-0b70011b663f",
+            "Name": "Pear"
+          },
+          {
+            "guid": "1ef6fe01-3095-4614-a6db-7c8cd416ae3b",
+            "Name": "Orange"
+          }
+        ],
+        "optionKeyProperty": "userId",
+        "optionDisplayProperty": "displayValue"
+      },
+      "destinationDataSourceConfig": {
+        "dataSourceGuid": "$dataSourceGuid_1",
+        "input": {
+          "propertyInputs": [
+            {
+              "propertyName": "team",
+              "otherFieldValue": {
+                "otherFieldKey": "dropDownTeam"
+              }
+            }
+          ]
+        }
+      },
+      "dataSourceConfig": {
+        "dataSourceGuid": "$dataSourceGuid_2",
+        "input": {
+          "propertyInputs": []
+        }
+      }
+    },
+    "type": "duallist",
+    "summaryVisibility": "Show",
+    "sourceDataSourceIdentifierSuffix": "source-datasource",
+    "destinationDataSourceIdentifierSuffix": "destination-datasource",
+    "requiresTemplateOptions": true,
+    "requiresKey": true,
+    "requiresDataSource": false
+  }
+]

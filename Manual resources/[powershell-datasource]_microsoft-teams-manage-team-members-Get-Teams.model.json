@@ -1,0 +1,38 @@
+[
+  {
+    "key": "securityIdentifier",
+    "type": 0
+  },
+  {
+    "key": "id",
+    "type": 0
+  },
+  {
+    "key": "mailEnabled",
+    "type": 0
+  },
+  {
+    "key": "displayName",
+    "type": 0
+  },
+  {
+    "key": "description",
+    "type": 0
+  },
+  {
+    "key": "mailNickName",
+    "type": 0
+  },
+  {
+    "key": "proxyAddresses",
+    "type": 0
+  },
+  {
+    "key": "displayValue",
+    "type": 0
+  },
+  {
+    "key": "mail",
+    "type": 0
+  }
+]

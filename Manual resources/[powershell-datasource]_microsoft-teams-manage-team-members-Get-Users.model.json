@@ -1,0 +1,34 @@
+[
+  {
+    "key": "userPrincipalName",
+    "type": 0
+  },
+  {
+    "key": "userId",
+    "type": 0
+  },
+  {
+    "key": "displayName",
+    "type": 0
+  },
+  {
+    "key": "surname",
+    "type": 0
+  },
+  {
+    "key": "givenName",
+    "type": 0
+  },
+  {
+    "key": "displayValue",
+    "type": 0
+  },
+  {
+    "key": "membershipId",
+    "type": 0
+  },
+  {
+    "key": "mail",
+    "type": 0
+  }
+]
