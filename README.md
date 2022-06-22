@@ -82,7 +82,7 @@ From the “<b>Request API Permissions</b>” screen click “<b>Microsoft Graph
 For this connector the following permissions are used as <b>Application permissions</b>:
 *	Read and Write all user’s full profiles by using <b><i>User.ReadWrite.All</i></b>
 *	Read and Write all groups in an organization’s directory by using <b><i>Group.ReadWrite.All</i></b>
-*	Read and Write data to an organization’s directory by using <b><i>Directory.ReadWrite.All</i></b>
+*	Add and remove members from all teams by using <b><i>TeamMember.ReadWrite.All</i></b>
 
 Some high-privilege permissions can be set to admin-restricted and require an administrators consent to be granted.
 
